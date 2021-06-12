@@ -2,6 +2,7 @@
 
 # abort on all errors
 set -e
+set -x
 
 if [ "$DEBUG" != "" ]; then
     set -x
